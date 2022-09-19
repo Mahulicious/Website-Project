@@ -1,8 +1,18 @@
 ul {
     list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
 }
 a {
+    font-size: 25px;
+    font-style: italic;
+    color: white;
     text-decoration: none;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 
@@ -14,10 +24,42 @@ a {
     display: flex;
     justify-content: space-between;
     border: 2px solid gold;
+    background-color: #1F2937;
 }
 .mainhead {
     display: flex;
     flex-direction: column;
     border: 5px solid green;
 
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+#infoimages {
+    max-width: auto;
+}
+#infoimages img{
+    width:150px;
+}
+.pics{
+    display: inline-block;
+    padding: 30px;
+    
+}
+.right {
+    float: right;
+}
+.banner {
+    background-color: #3882F6;
+    width: 800px;
+}
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
 }
