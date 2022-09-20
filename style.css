@@ -1,3 +1,10 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/javier-miranda-Jn2EaLLYZfY-unsplash.jpg);
+}
 ul {
     list-style: none;
     display: flex;
@@ -11,55 +18,133 @@ a {
     text-decoration: none;
 }
 h1 {
+    font-style: georgia, Arial, Helvetica;
     font-size: 48px;
     font-weight: bolder;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
 }
 
 
 
 
-
+.top img {
+    padding-left: 30px;
+    height: 70px;
+    width: 70px;
+}
 
 .top {
     display: flex;
     justify-content: space-between;
-    border: 2px solid gold;
-    background-color: #1F2937;
+    align-items: center;
 }
 .mainhead {
     display: flex;
-    flex-direction: column;
-    border: 5px solid green;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 1400px;
+    height: 800px;
+    
+    color: white;
+    
 
 }
+
+.mainhead img {
+    width: 900px;
+    height: 600px;
+}
+.infotxt p {
+    font-size: 25px;
+    font-style: georgia, Arial, Helvetica;
+}
+
+    
+
 .middle {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    color: white;
+    max-width: 1400px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5)
+    
 }
-#infoimages {
-    max-width: auto;
-}
+   
+
 #infoimages img{
-    width:150px;
+    width:350px;
+    height:300px ;
 }
 .pics{
     display: inline-block;
-    padding: 30px;
+    vertical-align: top;
+    padding-right: 30px;
     
+    
+}
+.pics p {
+    max-width: 350px;
+}
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 50px;
+    max-width: 60%;
+    padding: 15px;
+}
+
+
+.quotes p {
+font-size: 33px;
+font-style: italic;
+
 }
 .right {
     float: right;
 }
 .banner {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #3882F6;
     width: 800px;
+    height: 120px;
+    
 }
+.txt {
+    line-height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 150px;
+    
+}
+.txt div {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.buton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
 .footer {
     display: flex;
-    background-color: #1F2937;
+    background-color: black;
     color: white;
     justify-content: center;
+    align-items: center;
 }
